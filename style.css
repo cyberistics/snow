@@ -1,0 +1,117 @@
+    body {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        background: url('https://i.imgur.com/1RjJ9Lp.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: #78829D;
+    }
+    .container {
+        max-width: 700px;
+        margin: 40px auto;
+        background: linear-gradient(180deg, #FFFFFF, #D9DEE7);
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 0 15px rgba(173, 216, 230, 0.5);
+    }
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        background: #FFFFFF;
+        padding: 10px;
+        border-radius: 8px;
+        border-color: #78829D;
+        border-style: solid;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .nav a {
+        color: #7D8DA9;
+        text-decoration: none;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .header h1 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 36px;
+        margin: 0;
+    }
+    .header p {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .left, .right {
+        flex: 1 1 45%;
+    }
+    .left img {
+        width: 100%;
+        border-radius: 50%;
+        border: 2px solid #9fa8ff;
+        margin-bottom: 10px;
+    }
+    .left h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 24px;
+        margin: 0;
+    }
+    .credit-link {
+    color: #b6c0ff;
+      
+    }
+    .right-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+      
+    }
+    .info-buttons {
+        background: #FFFFFF;
+        padding: 8px;
+        border-radius: 8px;
+        border-color: #78829D;
+        border-style: solid;
+        margin: 10px 0;
+        text-align: center;
+        font-size: 13px;
+    }
+    .left p, .right p {
+        font-size: 12px;
+        margin: 8px 0;
+    }
+    .admin {
+        background: #FFFFFF;
+        padding: 8px;
+        border-radius: 8px;
+        border-color: #78829D;
+        border-style: solid;
+        font-size: 11px;
+        margin: 5px 0;
+    }
+    .links {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+    .links img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid #9fa8ff;
+    }
+    .links p {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 11px;
+    }
+    footer {
+        text-align: center;
+        font-size: 11px;
+        margin-top: 15px;
+        color: #ccc;
+    }
