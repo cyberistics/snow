@@ -10,7 +10,7 @@ body {
         background: linear-gradient(180deg, #FFFFFF, #D9DEE7);
         border-radius: 15px;
         padding: 20px;
-        box-shadow: 0 0 15px #000000;
+        box-shadow: 0 0 15px #8795AA;
     }
     .nav {
         display: flex;
